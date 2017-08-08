@@ -1,5 +1,6 @@
 #/bin/sh
-echo '============================
+echo 
+'============================
       SSH Key Installer
 	      V1.0 Alpha
 		Author:Kirito
@@ -13,6 +14,4 @@ cd ../
 chmod 600 .ssh
 cd /etc/ssh/
 sed -i '/PasswordAuthentication/s/#PasswordAuthentication yes/PasswordAuthentication no/g' sshd_config
-
-service sshd restart
-service ssh restart
+systemctl restart sshd
