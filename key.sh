@@ -7,7 +7,7 @@ echo '============================
 cd ~
 mkdir .ssh
 cd .ssh
-echo 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCyjhmEbiU469K3lA/oUc4UK+hDkyO9B+twdlpzTe6K5hYDJbrf0XxDe5z9mlmhvbQaDOSJj185hffR3hFk1VxHU4tRHZaCxDmrOA+PLfRX0P9H2fziYPuy/AsgwZAT+vK3JGNGJm+2+WJtH8POwn1q2f4uzsNAgIAueOgyUojHSvXgrbrJ3ehMqt89Gkz4spr8DxGpMGelPqqQ8Z2aCigbt10CpoC6KYTka8TphiwYNjyKzYOc+eEeYwrve7w3RSIA8D83a1RNC7j7ueONU5AmGVQz0r7LSskdJB40CcejkWx0VT0yTaj+hsZB7wsGETwYEIVD0SPMeQe05HAiEMkN root@cn1.kirito.ml' > authorized_keys
+echo 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDu14Wxtv3FlP6HsQcR26pNiNhqjocVXGscy/yy/78GOXjWRfvOfDlaew3tFonYRjyYIHc8o7pAwCRp4e/O/52numesZ3qdHcHaJB4C+TK1x4l5JzYV+iLWMi2DWxKAk38+M5IClhxWFSdYQ0DxWJ88POTCqwcuPOK4emvnQPuE1t6pk/KSoyk/F3wxXh6SnUj+8U9jAgDdK6tdfJHFCx3sNaMdTlKCw57Yv6CHBm/CWa1YIocgdk27HQRZF9uUOob7j1t50lsKf8a74Lybi8UKwpAuGxCuIeDqpA5mdg80emwhpbZQiUg/A2FMpC+yqUjLy82FnG4VITilE3ILHwNZ 30107402@qq.com' > authorized_keys
 chmod 700 authorized_keys
 cd ../
 chmod 600 .ssh
