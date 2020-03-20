@@ -1,10 +1,4 @@
 #/bin/sh
-echo 
-'============================
-      SSH Key Installer
-	      V1.0 Alpha
-		Author:Kirito
-============================'
 cd ~
 mkdir .ssh
 cd .ssh
